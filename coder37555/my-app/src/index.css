@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.nav{
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: space-around;
+  height: 10rem;
+}
+
+.nav-logo{
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+  
+
+}
+
+.nav-link{
+  display: flex;
+  font-size: 2rem;
+ 
+
+}
+li{
+  list-style: none;
+  margin-left: 1rem;
+  
+}
+li a{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.header{
+  background-color: red;
+}
